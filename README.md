@@ -1,4 +1,10 @@
-# GSoC-2025-Final-Report-Alaska-Project  
+<p align="left">
+  <img src="images/GSoC-logo.png" alt="GSoC Logo" width="300"/>
+  &nbsp;&nbsp;
+  <img src="images/Alaska_logo.png" alt="Alaska Logo" width="290"/>
+</p>
+
+# GSoC 2025 Final Report
 
 | **Organization** | Alaska |
 |------------------|:-------|
