@@ -76,6 +76,7 @@ I enhanced the NDWI labeling script by adding new functions, utility integration
 ---
 
 # 4. Data Preprocessing Pipeline  
+![Data Preprocessing Pipeline](images/DATA%20PREPROCESSING%20PIPELINE.png)
 
 ### **Step 1: Batch Alignment**  
 **Purpose:** Align raw satellite images to a common CRS, pixel size, and extent.  
@@ -122,7 +123,7 @@ I enhanced the NDWI labeling script by adding new functions, utility integration
 - Coastline shapefiles (`*_Coast_Contour.shp`)  
 - Visualization plots (NDWI, mask, summary)
 
-  
+  ![Mask Chart](images/mask%20chart.png)
 
 ---
 
