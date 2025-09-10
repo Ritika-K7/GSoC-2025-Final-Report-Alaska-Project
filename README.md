@@ -1,7 +1,5 @@
 <p align="left">
-  <img src="images/GSoC-logo.png" alt="GSoC Logo" width="300"/>
-  &nbsp;&nbsp;
-  <img src="images/Alaska_logo.png" alt="Alaska Logo" width="290"/>
+  <img src="images/GSoC_Alaska_logo.png" alt="GSoC Alaska Logo" width="1000"/>
 </p>
 
 # GSoC 2025 Final Report
@@ -20,14 +18,13 @@
 
 ---
 
-## About Alaska  
-*Alaska supports geospatial research and tool development for better understanding and managing environmental change, with a focus on Arctic and sub-Arctic regions.*  
+## Project Goal 
+The goal of this project is to develop and deliver a highly accurate, automated model that can extract vectorized coastlines directly from PlanetLabs satellite imagery with 3-meter resolution. The work focuses on retraining the DeepWaterMap model, which was originally designed for 30-meter resolution Landsat data, and adapting it to operate effectively on higher-resolution imagery. A custom dataset will be created from PlanetLabs imagery to support this retraining. Ultimately, the project aims to produce a robust model capable of processing large volumes of imagery and accurately predicting coastline changes over time, which is essential for improving coastal erosion forecasts in the Deering region of Alaska, particularly under the impacts of climate change.
 
----
 
 ## Links to Repositories 
--CoastlineExtraction - https://github.com/fwitmer/CoastlineExtraction
--CoastLineExtration(My Fork) - https://github.com/Ritika-K7/CoastlineExtraction
+- CoastlineExtraction : https://github.com/fwitmer/CoastlineExtraction
+- CoastLineExtration (My Fork) : https://github.com/Ritika-K7/CoastlineExtraction
 
 ---
 
@@ -177,9 +174,6 @@ I enhanced the NDWI labeling script by adding new functions, utility integration
 - **Data Augmentation:**  
   - 1,100 original tiles × 8 versions (1 original + 7 augmented)  
   - **= 8,800 tiles (4,400 images + 4,400 masks)**  
-
-📊 *Insert Diagram: Data Preprocessing Pipeline*  
-
 ---
 
 # 5. Models  
@@ -215,8 +209,6 @@ DeepWaterMap is a deep learning model specialized for **surface water mapping** 
     - Band 3 = Blue  
     - Band 4 = NIR  
     - Band 5 = Binary Water Mask (0 = land, 1 = water)  
-
-📊 *Insert Screenshot: Visualization showing Band 5 added*  
 
 **Data Format:**  
 DeepWaterMap requires **TFRecord format** (not TIFF/PNG).  
