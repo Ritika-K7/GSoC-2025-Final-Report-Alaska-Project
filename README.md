@@ -1,16 +1,16 @@
 # GSoC-2025-Final-Report-Alaska-Project  
 
-| **Organization** |Alaska |
-|------------------|--------|
+| **Organization** | Alaska |
+|------------------|:-------|
 | **Project Title** | Automated Coastline Extraction for Erosion Modeling in Alaska |
 | **Mentors** | Frank Witmer, Rawan Elframawy |
 | **Student** | Ritika Kumari |
-  
+
 ---
 
 ## About Me  
-- 📧 Email:   
-- 🔗 LinkedIn:   
+- 📧 Email: rkjane333@gmail.com 
+- 🔗 LinkedIn: www.linkedin.com/in/ritika-kumari-b15b95289
 
 ---
 
