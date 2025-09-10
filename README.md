@@ -139,6 +139,9 @@ I enhanced the NDWI labeling script by adding new functions, utility integration
 
 **Output:** ~1,100 tiles (~550 images + ~550 masks)  
 
+
+![Tile Chart](images/tile_chart.png)
+
 ---
 
 ### **Step 5: Data Augmentation**  
@@ -153,6 +156,8 @@ I enhanced the NDWI labeling script by adding new functions, utility integration
 
 **Output:** ~8,800 tiles (1,100 original + 7,700 augmented)  
 
+
+![Augment Chart](images/augment_chart.png)
 ---
 
 ### **Training Dataset Statistics**  
@@ -215,5 +220,17 @@ Each TFRecord contains:
 
 **Final Dataset Structure:**  
 - `train_*.tfrecord` → Training data  
-- `test_*.tfrecord` → Validation/Testing data  
+- `test_*.tfrecord` → Validation/Testing data
+  
+![GeoRegistered Bands Visualization 1](images/1483219_0369619_2018-06-05_1034_BGRN_SR_clip_aligned_GeoRegistered_bands_visualization.png)
 
+![GeoRegistered Bands Visualization 2](images/1483240_0369619_2018-06-05_103f_BGRN_SR_clip_aligned_GeoRegistered_bands_visualization.png)
+
+![GeoRegistered Bands Visualization 3](images/1487598_0369619_2018-06-07_1008_BGRN_SR_clip_aligned_GeoRegistered_bands_visualization.png)
+
+
+---
+Contributions
+| PR Link | Description | Status |
+|----------|----------|----------|
+| https://github.com/fwitmer/CoastlineExtraction/pull/42 | Add config_template.json to guide users in setting up image and shape file paths |Merged |
