@@ -232,5 +232,24 @@ Each TFRecord contains:
 ---
 Contributions
 | PR Link | Description | Status |
-|----------|----------|----------|
-| https://github.com/fwitmer/CoastlineExtraction/pull/42 | Add config_template.json to guide users in setting up image and shape file paths |Merged |
+|---------|-------------|--------|
+| [#42](https://github.com/fwitmer/CoastlineExtraction/pull/42) | Add config_template.json to guide users in setting up image and shape file paths | Merged |
+| [#43](https://github.com/fwitmer/CoastlineExtraction/pull/43) | add CRS checker utility for raster and vector geospatial files | Merged |
+| [#44](https://github.com/fwitmer/CoastlineExtraction/pull/44) | Integrate load_config for dynamic path handling in ndwi_labels.py and add missing raster file | Merged |
+| [#45](https://github.com/fwitmer/CoastlineExtraction/pull/45) | Add CRS validation to ndwi_labels.py for input files. | Merged |
+| [#46](https://github.com/fwitmer/CoastlineExtraction/pull/46) | Add spatial_analysis.py utility and integrate with ndwi_labels.py | Merged |
+| [#47](https://github.com/fwitmer/CoastlineExtraction/pull/47) | Add intersection check to skip non-overlapping buffers in NDWI processing. | Merged |
+| [#48](https://github.com/fwitmer/CoastlineExtraction/pull/48) | Refactor: Extract plotting logic into separate save_ndwi_plots() function | Merged |
+| [#49](https://github.com/fwitmer/CoastlineExtraction/pull/49) | feat: integrate shapefile generation for coastline extraction | Merged |
+| [#50](https://github.com/fwitmer/CoastlineExtraction/pull/50) | refactor: move GIS utility functions from ndwi_labels.py to utils/gis_tools.py | Merged |
+| [#51](https://github.com/fwitmer/CoastlineExtraction/pull/51) | Add utility to rasterize coastline shapefile to GeoTIFF | Merged |
+| [#52](https://github.com/fwitmer/CoastlineExtraction/pull/52) | feat : Add batch alignment script for satellite image preprocessing | Merged |
+| [#53](https://github.com/fwitmer/CoastlineExtraction/pull/53) | feat: Add fine coregistration script for satellite image fine-tuning | Merged |
+| [#54](https://github.com/fwitmer/CoastlineExtraction/pull/54) | feat: Add image tiling script for satellite image preprocessing | Merged |
+| [#56](https://github.com/fwitmer/CoastlineExtraction/pull/56) | Enhance batch_align.py with improved resolution handling and documentation | Merged |
+| [#57](https://github.com/fwitmer/CoastlineExtraction/pull/57) | Adds three key scripts for preprocessing satellite imagery data| Merged |
+| [#58](https://github.com/fwitmer/CoastlineExtraction/pull/58) | Enhanced Data Preprocessing Pipeline with Water Mask Generation | Merged |
+| [#59](https://github.com/fwitmer/CoastlineExtraction/pull/59) | Training, Prediction & Mask Band Integration for Coastline Segmentation | Merged |
+
+
+
