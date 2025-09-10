@@ -126,7 +126,8 @@ I enhanced the NDWI labeling script by adding new functions, utility integration
 - Coastline shapefiles (`*_Coast_Contour.shp`)  
 - Visualization plots (NDWI, mask, summary)
 
-  ![Mask Chart](images/mask%20chart.png)
+  
+![Image-Mask Diagram](images/img_mask_diagram.png)
 
 ---
 
@@ -143,7 +144,7 @@ I enhanced the NDWI labeling script by adding new functions, utility integration
 **Output:** ~1,100 tiles (~550 images + ~550 masks)  
 
 
-![Tile Chart](images/tile_chart.png)
+![Tile Diagram](images/Tile_Diag.png)
 
 ---
 
@@ -159,8 +160,7 @@ I enhanced the NDWI labeling script by adding new functions, utility integration
 
 **Output:** ~8,800 tiles (1,100 original + 7,700 augmented)  
 
-
-![Augment Chart](images/augment_chart.png)
+![Augmentation Diagram](images/augment_Diagram.png)
 ---
 
 ### **Training Dataset Statistics**  
