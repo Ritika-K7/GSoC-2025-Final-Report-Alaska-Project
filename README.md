@@ -513,3 +513,15 @@ Each TFRecord contains:
 | [#57](https://github.com/fwitmer/CoastlineExtraction/pull/57) | Adds three key scripts for preprocessing satellite imagery data| Merged |
 | [#58](https://github.com/fwitmer/CoastlineExtraction/pull/58) | Enhanced Data Preprocessing Pipeline with Water Mask Generation | Merged |
 | [#59](https://github.com/fwitmer/CoastlineExtraction/pull/59) | Training, Prediction & Mask Band Integration for Coastline Segmentation | Merged |
+
+---
+## Future work
+Use the dataset created in this project to train the model on the **Chinook** and test it with Planet imagery from **September 4 and September 6, 2016**. Once trained, the model will be applied to extract vectorized coastlines, which will then be compared against **USGS** and **Hi-Res reference coastlines** to evaluate accuracy.
+
+Publish the results in a research paper, highlighting the advancements made in automated coastline extraction and demonstrating the effectiveness of models such as DeepWaterMap and U-Net for improving erosion monitoring in Alaska.
+
+---
+## What challenges did you encounter as part of this project?
+One of the most difficult parts of this project was working with **GDAL**. Installation itself was challenging due to dependency issues, and once installed, using GDAL for image alignment required significant effort to understand and apply correctly. Similarly, the **AROSICS** library for fine-tuning alignment (coregistration) demanded careful parameter tuning and repeated troubleshooting to achieve pixel-level accuracy.
+
+Another major challenge was handling large volumes of data. The size of the imagery and intermediate outputs sometimes made it difficult to manage everything on **GitHub**. In cases where I had to delete files or reduce repository size, I needed to rebase the history and start from the beginning, which added extra complexity to the workflow.
