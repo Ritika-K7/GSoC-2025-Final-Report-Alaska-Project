@@ -13,6 +13,8 @@
 ---
 
 ## About Me  
+My name is Ritika Kumari, and I am in my final year of B.Tech in Computer Science and Engineering . I had the opportunity to work with Alaska this summer on the Automated Coastline Extraction for Erosion Modeling project, where I contributed to training the models that provide automated coastline extraction for erosion studies.
+Through this project, I worked with computer vision, image processing, machine learning, and geospatial data, applying my academic learning to real-world problems.GSoC 2025 gave me the chance to make meaningful contributions to open source.
 - 📧 Email: rkjane333@gmail.com  
 - 🔗 LinkedIn: www.linkedin.com/in/ritika-kumari-b15b95289  
 
