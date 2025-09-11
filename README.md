@@ -25,7 +25,7 @@ The goal of this project is to develop and deliver a highly accurate, automated 
 
 | **Project Flow Diagram** |
 |---------------------------|
-| ![Project Flow](images/project_flow.png) |
+| ![Project Flow Diagram](images/project_Flow_Diagram.png) |
 
 ---
 
