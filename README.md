@@ -23,6 +23,10 @@ Through this project, I worked with computer vision, image processing, machine l
 ## Project Goal  
 The goal of this project is to develop and deliver a highly accurate, automated model that can extract vectorized coastlines directly from PlanetLabs satellite imagery with 3-meter resolution. The work focuses on retraining the [DeepWaterMap](https://github.com/isikdogan/deepwatermap) model, which was originally designed for 30-meter resolution Landsat data, and adapting it to operate effectively on higher-resolution imagery. A custom dataset will be created from PlanetLabs imagery to support this retraining. Ultimately, the project aims to produce a robust model capable of processing large volumes of imagery and accurately predicting coastline changes over time, which is essential for improving coastal erosion forecasts in the **Deering region of Alaska**, particularly under the impacts of climate change.  
 
+| **Project Flow Diagram** |
+|---------------------------|
+| ![Project Flow](images/project_flow.png) |
+
 ---
 
 ## Links to Repositories  
