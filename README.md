@@ -272,13 +272,13 @@ Use the dataset created in this project to train the model on the **Chinook** an
 
 Publish the results in a research paper, highlighting the advancements made in automated coastline extraction and demonstrating the effectiveness of models such as DeepWaterMap and U-Net for improving erosion monitoring in Alaska.
 
----
+
 ## What challenges did you encounter as part of this project?
 One of the most difficult parts of this project was working with **GDAL**. Installation itself was challenging due to dependency issues, and once installed, using GDAL for image alignment required significant effort to understand and apply correctly. Similarly, the **AROSICS** library for fine-tuning alignment (coregistration) demanded careful parameter tuning and repeated troubleshooting to achieve pixel-level accuracy.
 
 Another major challenge was handling large volumes of data. The size of the imagery and intermediate outputs sometimes made it difficult to manage everything on **GitHub**. In cases where I had to delete files or reduce repository size, I needed to rebase the history and start from the beginning, which added extra complexity to the workflow.
 
----
+
 ## Acknowledgment
 I would like to sincerely thank my mentors, Prof. Frank Witmer and Rawan Elframawy, for their continuous guidance and encouragement throughout this project. Their weekly meetings, thoughtful feedback, and patience helped me navigate challenges and stay motivated. Without them, the work never would have been this joyful and rewarding. Both were always available to answer my questions on time, supportive and understanding, and always open to newer ideas.
 
