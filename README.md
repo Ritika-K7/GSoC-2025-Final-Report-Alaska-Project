@@ -237,7 +237,7 @@ Each TFRecord contains:
 - `train_*.tfrecord` → Training data  
 - `test_*.tfrecord` → Validation/Testing data  
 
-| **GeoRegistered Bands Visualization** |
+| **Bands Visualization** |
 |---------------------------------------|
 | ![GeoRegistered Bands Visualization 1](images/1483219_0369619_2018-06-05_1034_BGRN_SR_clip_aligned_GeoRegistered_bands_visualization.png) |
 | ![GeoRegistered Bands Visualization 2](images/1483240_0369619_2018-06-05_103f_BGRN_SR_clip_aligned_GeoRegistered_bands_visualization.png) |
